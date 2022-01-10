@@ -1,6 +1,10 @@
 <template>
   <div id="app">
+    <navigation />
     <router-view />
+    <p>
+      This website is made by Timon De Bruyne for the course Web Topics Advanced
+    </p>
   </div>
 </template>
         
@@ -36,5 +40,8 @@ export default {
       color: #42b983;
     }
   }
+}
+p {
+  color: aliceblue;
 }
 </style>

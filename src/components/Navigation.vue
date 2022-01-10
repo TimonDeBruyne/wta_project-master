@@ -31,10 +31,16 @@ export default {
 .warning {
   margin-top: 20px;
   margin-left: 2rem;
-  background-color: pink;
-  color: rgb(0, 0, 0);
+  background-color: rgb(240, 71, 99);
+  color: rgb(255, 255, 255);
 }
 .link {
   margin-right: 1rem;
+}
+#nav a {
+  color: aliceblue;
+}
+#nav a.router-link-exact-active {
+  color: rgb(145, 145, 145);
 }
 </style>
